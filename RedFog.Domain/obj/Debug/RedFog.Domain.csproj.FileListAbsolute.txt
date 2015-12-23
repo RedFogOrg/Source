@@ -1,0 +1,5 @@
+C:\Users\itsga\Documents\RedFog_Code\V1.0\RedFog\RedFog.Domain\bin\Debug\RedFog.Domain.dll
+C:\Users\itsga\Documents\RedFog_Code\V1.0\RedFog\RedFog.Domain\bin\Debug\RedFog.Domain.pdb
+C:\Users\itsga\Documents\RedFog_Code\V1.0\RedFog\RedFog.Domain\obj\Debug\RedFog.Domain.csprojResolveAssemblyReference.cache
+C:\Users\itsga\Documents\RedFog_Code\V1.0\RedFog\RedFog.Domain\obj\Debug\RedFog.Domain.dll
+C:\Users\itsga\Documents\RedFog_Code\V1.0\RedFog\RedFog.Domain\obj\Debug\RedFog.Domain.pdb

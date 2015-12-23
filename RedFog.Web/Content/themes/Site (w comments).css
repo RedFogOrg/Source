@@ -1,0 +1,263 @@
+﻿body {
+    background:#fff;
+    margin:0px;;
+    padding:0px;
+}
+
+.header {
+    width: 100%;
+}
+
+/* ******************************************** LOGO DESIGN ****************************************** */
+.site-logo-image{
+    background-image:url(images\\Redfog.gif);
+    background-size:cover;
+    position:absolute;
+    height:90px;
+    width:120px;
+    top:5px;
+    left:5px;
+    margin:0px;
+    z-index:1001;
+}
+                                                                                                                                                                                                                           .nav-exposed .header{-webkit-box-shadow:0 0 4px rgba(0,0,0,.2);box-shadow:0 0 4px rgba(0,0,0,.2)}
+/* ********************************** Top picture ************************************************** */
+
+.main-intro{
+    background-image:url(images\\home\\hungrychild.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    /*color:#DFE3E3;
+    font-family: Arial;
+    text-align: right;
+    font-size:80px;
+    display:block;*/
+    float:left;
+    height:100vh;
+    /*position:absolute;*/
+    top:0px;
+    left:0px;
+    width:100%;
+    z-index:1002;
+    margin-top:0px;
+    margin-left:0px;
+    margin-right:0px;
+}
+
+/* ********************************** Menu bar ************************************************** */
+ul.nav-main {
+    float: left;
+    width:100%;
+    list-style: none;
+    margin:0px;
+    z-index:1000;
+    background-color:darkgray;
+    opacity: .50; /* Standard: FF gt 1.5, Opera, Safari, CSS3 */
+    filter: alpha(opacity=50); /* IE lt 8 */
+    -ms-filter: "alpha(opacity=50)"; /* IE 8 */
+    -khtml-opacity: .50; /* Safari 1.x */
+    -moz-opacity: .50; /* FF lt 1.5, Netscape */
+}
+
+ul.nav-main li {
+    /*border-left: 1px solid #f5f5f5;*/
+    float:  left;
+}
+
+
+ul.nav-main a {
+    border-bottom: 2px solid #333;
+    /*-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    */
+    color: #fff;
+    /*display: block;
+    height: 40px;*/
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-bottom:20px;
+    text-decoration:none;
+    font-family:Arial;
+    font-size:17px;
+    font-weight:bold;
+}
+
+home-index-main{
+    background-color:#ffffff;
+}
+
+.home-cause-human-wrapper {
+    opacity: 1;
+    -webkit-transition: opacity .4s ease-out;
+    transition: opacity .4s ease-out;
+    background: #fff;
+    /*position:  ;*/
+    width: 100%;
+    /*z-index: 1;*/
+    float:left;
+    position: relative;
+}
+
+/*user agent stylesheetdiv {
+    display: block;
+}*/
+
+.home-cause-human-section {
+    height: 600px;
+    padding: 0;
+}
+/*section {
+    border-bottom: 1px solid #f1f1f1;
+    padding: 40px 0;
+}*/
+
+/*.home-cause-human-text h1, .home-cause-animal-text h1, .home-cause-env-text h1{
+    color:#959595;
+    font-size:80px;
+    font-weight:lighter;
+}*/
+
+/*section-cause-centered {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0 auto;
+    max-width: 1080px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+}*/
+
+/*.home-cause-human-text
+{
+    color:#959595;
+    position:relative;
+    z-index:1;
+    margin:2% 10%;
+    float:right;
+}*/
+
+/*h1.home-cause-human-text
+{
+    font-size:3em !important;
+}*/
+
+/*section-cause-centered:after, .header-item:after, .tabs-list:after {
+    clear: both;
+    content: "";
+    display: block;
+    visibility: hidden;
+}*/
+
+ /*.home-cause-human-img {
+    background-position: right center;
+    background-size: cover;
+    background-image:url(images\\home\\Global-poverty.png);
+    background-repeat: no-repeat;
+
+    background-size: contain;
+    left: 0;
+    margin-top: 90px;
+    min-height: 440px;
+    width: 48%;
+    position: absolute;
+}
+
+ .home-cause-animal-section {
+    position: relative;
+     padding: 20px 0;
+}
+.light-gray {
+    background-color: #f6f6f6;
+}*/
+
+/*.home-cause-animal-img {
+    background-position: right center;
+    background-size: cover;
+    background-image:url(images\\home\\Animal3.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: 0;
+    margin-top: 90px;
+    min-height: 440px;
+    width: 48%;
+    position: relative;
+    margin-left:50%
+}
+
+.home-cause-animal-text
+{
+    color:#959595;
+    position:relative;
+    z-index:1;
+    margin:-39% auto auto 8%;
+    float:left;
+}
+.home-cause-env-section {
+    height: 600px;
+    padding: 0;
+}*/
+/*.home-cause-env-text
+{
+    color:#959595;
+    position:relative;
+    z-index:1;
+    margin:2% 0%;
+    float:right;
+}*/
+
+
+/*section-cause-centered:after, .header-item:after, .tabs-list:after {
+    clear: both;
+    content: "";
+    display: block;
+    visibility: hidden;
+}*/
+
+ /*.home-cause-env-img {
+    background-position: right center;
+    background-size: cover;
+    background-image:url(images\\home\\Environ2.jpg);
+    background-repeat: no-repeat;
+
+    background-size: contain;
+    left: 0;
+    margin-top: 90px;
+    min-height: 440px;
+    width: 48%;
+    position: absolute;
+}*/
+
+/*Search Area*/
+/*#searchbox
+{
+    background-color: #eaf8fc;
+    /*background-image: linear-gradient(#fff, #d4e8ec);*/
+    /*border-radius: 35px;    
+    border-width: 1px;
+    border-style: solid;
+    border-color: #c4d9df #a4c3ca #83afb7;            
+    width: 500px;
+    height: 35px;
+    padding: 10px;
+    margin: 5px auto 50px;
+    overflow: hidden; /* Clear floats */
+    /*float:right
+}
+#search, 
+#submit {
+    float: left;
+}
+
+#search {
+    padding: 5px 9px;
+    height: 23px;
+    width: 380px;
+    border: 1px solid #a4c3ca;
+    font: normal 13px 'trebuchet MS', arial, helvetica;
+    background: #f1f1f1;
+    border-radius: 50px 3px 3px 50px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 0 rgba(255, 255, 255, 1);            
+}*/
+

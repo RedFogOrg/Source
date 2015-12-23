@@ -1,0 +1,211 @@
+﻿body {
+        background-color: #fff;
+    color: #7d7d7d;
+    font: 400 16px/1.667 "Open Sans",sans-serif;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    position: relative;
+}
+ul.nav-main li.nav-main-last {
+    border-right: 1px solid #f5f5f5;
+}
+ul.nav-main a {
+    border-bottom: 3px solid #fff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #959595;
+    display: block;
+    height: 67px;
+    padding: 13px 30px 12px 30px;
+    text-decoration: none;
+}
+ul.nav-main a {
+    white-space: nowrap;
+}
+a:visited {
+    color: #66a0fd;
+}
+maia.experimental.css@media screen, projection
+a:visited {
+    color: #7759ae;
+}
+a {
+    color: #66a0fd;
+    text-decoration: none;
+}
+@media screen, projection
+a {
+    color: #245dc1;
+    text-decoration: none;
+}
+user agent stylesheeta:-webkit-any-link {
+    color: -webkit-link;
+    text-decoration: underline;
+    cursor: auto;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+Inherited from ul.nav-main
+ul.nav-main {
+    float: left;
+    font-size: 22px;
+    list-style: none;
+    margin: 0;
+}
+user agent stylesheetul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+
+ul.nav-main li.nav-main-last {
+    border-right: 1px solid #f5f5f5;
+}
+ul.nav-main li {
+    border-left: 1px solid #f5f5f5;
+    float: left;
+    position: relative;
+    z-index: 1;
+}
+ul.nav-main {
+    float: left;
+    font-size: 22px;
+    list-style: none;
+    margin: 0;
+}
+user agent stylesheetul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+ul.nav-main li.nav-main-last {
+    border-right: 1px solid #f5f5f5;
+}
+ul.nav-main li {
+    border-left: 1px solid #f5f5f5;
+    float: left;
+    position: relative;
+    z-index: 1;
+}
+user agent stylesheetli {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+ul.nav-main li.nav-main-last {
+    border-right: 1px solid #f5f5f5;
+}
+ul.nav-main li {
+    border-left: 1px solid #f5f5f5;
+    float: left;
+    position: relative;
+    z-index: 1;
+}
+user agent stylesheetli {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+    float: left;
+    font-size: 22px;
+    list-style: none;
+    margin: 0;
+}
+maia.experimental.css@media screen, projection
+ul, ol {
+    margin: 10px 10px 10px 30px;
+    padding: 0;
+}
+user agent stylesheetul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+Inherited from body.editors-layout.forms.nav-exposed.hoverable
+body {
+    background-color: #fff;
+    color: #7d7d7d;
+    font: 400 16px/1.667 "Open Sans",sans-serif;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    position: relative;
+}
+Inherited from html.js.flexbox.flexboxlegacy.canvas.canvastext.webgl.no-touch.geolocation.postmessage.websqldatabase.indexeddb.hashchange.history.draganddrop.websockets.rgba.hsla.multiplebgs.backgroundsize.borderimage.borderradius.boxshadow.textshadow.opacity.cssanimations.csscolumns.cssgradients.cssreflections.csstransforms.csstransforms3d.csstransitions.fontface.generatedcontent.video.audio.localstorage.sessionstorage.webworkers.applicationcache.svg.inlinesvg.smil.svgclippaths
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+maia.experimental.css@media screen, projection
+html {
+    background: #fff;
+    color: #444;
+    padding: 0 15px;
+}
+maia.experimental.css@media screen, projection
+html, h4, h5, h6 {
+    font-size: 13px;
+}
+@media screen, projection, print
+html {
+    line-height: 1.54;
+}
+@media screen, projection, print
+html, input, textarea {
+    font-family: arial,sans-serif;
+}
+Pseudo ::selection element
+::selection {
+    background-color: #4386fc;
+    color: #fff;
+}
+::selection {
+    background-color: #4386fc;
+    color: #fff;
+}
+ul.nav-tertiary {
+    background: #fff;
+    float: right;
+    font-size: 15px;
+    list-style: none;
+    margin: 0;
+    position: absolute;
+    right: 0;
+    z-index: 0;
+}
+
+ul.nav-tertiary .tertiary-last {
+    margin-right: 22px;
+}
+ul.nav-tertiary li {
+    background: #fff;
+    float: left;
+    position: relative;
+}
+user agent stylesheetli {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.searchbar
+{
+    float:right;
+    position:absolute;
+    right:0;
+    z-index:0;
+}

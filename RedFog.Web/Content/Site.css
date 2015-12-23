@@ -1,0 +1,397 @@
+﻿body {
+    background:#fff;
+    margin:0;
+}
+
+.header {
+    margin:0;
+    width: 100%;
+}
+
+/* ********************************** LOGO ************************************* */
+/*.site-logo-image{
+    background-image:url(images\\Redfog.gif);
+    background-size:cover;
+    position:fixed;
+    height:108px;
+    width:150px;
+    top:5px;
+    left:5px;
+    margin:0px;
+    z-index:1001;
+    -webkit-filter: drop-shadow(1px 1px 10px black);
+    box-shadow: 1px 1px 10px black;
+    float:left;
+    display:none;
+}*/
+
+.home-site-logo{
+    padding-top:0px !important;
+    height:96px;
+    width:116px;
+    z-index:1001;
+    box-shadow: 0px 6px 6px transparent, 0px 5px 5px rgba(0, 0, 0, 0.4) !important;
+}
+
+.navbar-nav > li > a{ 
+    height: 40px !important;
+    margin-top: -5px !important;
+    font: 400 20px/1.5 "Calluna Sans","Gill Sans",Calibri,"Trebuchet MS",sans-serif  !important;
+    color:white !important;
+}
+
+.navbar-brand {
+    margin-top: -18px !important;
+}
+
+.navbar {
+    box-shadow: 0px 6px 6px transparent, 0px 5px 5px rgba(0, 0, 0, 0.4) !important;
+    border-bottom: 0px solid rgba(255, 255, 255, 0.5) !important;
+    background-color:red !important;
+}
+
+.navbar-right {
+    margin-right: 17px !important;
+    margin-top: -5px !important;
+    margin-bottom: 0px !important;
+    height: 40px !important;
+    color: black !important;
+    vertical-align:bottom !important;
+}
+
+.navbar-right > li > a {
+    color: white !important;
+    margin-top:5px !important;
+    margin-bottom:0px !important;
+    font: 400 20px/1.5 "Calluna Sans","Gill Sans",Calibri,"Trebuchet MS",sans-serif !important;
+}
+
+.navbar-right > li > a > img {
+    margin-top:-9px !important;
+    height:20px !important; 
+    width:20px !important;
+}
+
+/* ********************************** Top picture *********************************************** */
+.main-intro{
+    background-image:url(images\\home\\street-children.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    /*float:left;*/
+    height:100vh;
+    /*padding-top:10%;*/
+    /*padding-left:10%;*/
+    width:100%;
+    z-index:1000;
+    /*margin-top:-16px;*/
+    /*padding-top:0px;*/
+    /*filter: blur(4px);*/
+}
+
+.home-back-glass {
+    position: absolute;
+    top:25%;
+    left:70%;
+    height:400px;
+    width:300px;
+    z-index:1005 !important;
+
+    border-top-width:2px;
+    border-bottom-width:2px;
+    
+    border-top-color:gray;
+    border-bottom-color:gray;
+  
+    border-top-style: ridge;
+    border-bottom-style:ridge;
+    /*border-radius:90% !important;*/
+        
+    /* Fallback for web browsers that doesn't support RGBa */
+	background: rgb(0, 0, 0);
+	
+    /* RGBa with 0.6 opacity */
+	background: rgba(0, 0, 0, 0.7);
+
+	/* For IE 5.5 - 7*/
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+	
+    /* For IE 8*/
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+
+    font: 400 42px/1.5 "Calluna Sans","Gill Sans",Calibri,"Trebuchet MS",sans-serif;
+    color:aliceblue;
+    padding:10px;
+    text-align:center;
+}
+
+.home-back-glass-getstarted-button{
+    margin-top:40px;
+    height:50px;
+}
+
+.intro-text{
+    position: absolute;
+    color:white;
+    font: 500 70px "Open Sans",sans-serif;
+    text-align:center;
+    vertical-align:middle;
+    top:400px;
+    left:150px;
+    height:170px;
+    z-index:1006 !important;
+}
+
+.intro-text em{
+    position: absolute;
+    color:white;
+    font: 500 70px "Open Sans",sans-serif;
+    text-align:center;
+    vertical-align:middle;
+    top:400px;
+    left:150px;
+    height:170px;
+    z-index:1006 !important;
+}
+
+/* ********************************** Menu bar ************************************************** */
+ul.nav-main {
+    float: left;
+    width:100%;
+    margin:0px;
+    z-index:1000;
+    padding-left:140px;
+    background-color:darkgrey;
+    opacity: .75; /* Standard: FF gt 1.5, Opera, Safari, CSS3 */
+    filter: alpha(opacity=70); /* IE lt 8 */
+    -ms-filter: "alpha(opacity=75)"; /* IE 8 */
+    -khtml-opacity: .75; /* Safari 1.x */
+    -moz-opacity: .75; /* FF lt 1.5, Netscape */
+    position:fixed;
+    top:20px;
+    left:0px;
+    -webkit-filter: drop-shadow(1px 1px 10px black);
+    box-shadow: 1px 1px 10px black;
+}
+
+ul.nav-main li {
+    /*border-left: 1px solid #f5f5f5;*/
+    float:  left;
+    padding-top: 5px;
+    padding-left: 50px;
+    padding-bottom:5px;
+    display: block;
+    top:0px;
+    left:0px;
+}
+
+ul.nav-main a 
+{
+    /*border-bottom: 2px solid #333;*/
+    color: white;
+    text-decoration:none;
+    font-family: "open sans",arial,sans-serif;
+    float:left;
+    font-size:19px;
+    font-weight:bold;
+}
+
+/* ********************************** Generic title, wrapper ************************************************** */
+
+.home-cause-wrapper {
+    width: 100%;
+    float:left;
+    position: relative;
+}
+
+.home-cause-title{
+    color:black;
+    font-size:80px;
+    font: 400 70px/2 "Open Sans",sans-serif;
+    letter-spacing:-1px;
+    line-height:1px;
+    padding-top:100px;  
+   	white-space: nowrap;
+}
+
+.home-cause-title em {
+    color:red;
+    font-size:80px;
+    font: 400 70px/1.667 "Open Sans",sans-serif;
+    letter-spacing:-1px;
+    line-height:1px;
+    padding-top:100px;   
+	white-space: nowrap;
+}
+
+/* ********************************** People Area ************************************************** */
+
+.home-cause-human-section {
+    height: 600px;
+    padding: 0;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.home-cause-human-img {
+    background-position: left center;
+    background-size: cover;
+    background-image: url('images/home/37193830_d73d14878e_o.jpg');
+    background-repeat: no-repeat;
+    left: 0;
+    margin-top: 90px;
+    margin-left: 50px;
+    min-height: 440px;
+    width: 40%;
+    position: absolute;
+    border-radius: 90%;
+}
+
+.home-cause-wrapper h3
+{
+    color:#4C4C4C;
+    position:relative;
+    font-weight: lighter;
+    float:left;
+    text-align: left;
+    padding-top:25px;
+    letter-spacing:-1.1px;
+    font: 400 20px/1.667 "Open Sans",sans-serif;
+    width:600px;
+}
+
+.home-cause-human-text
+{
+    color:#4C4C4C;
+    position:relative;
+    padding-left: 48%;
+    font-weight: lighter;
+    float:left;
+    text-align: left;
+    padding-top:80px;
+    letter-spacing:-1.1px;
+    font: 400 17px/1.667 "Open Sans",sans-serif;
+}
+
+/* ********************************** Animal Area ************************************************** */
+.home-cause-animal-section {
+    height: 600px;
+    padding: 0;
+    background-color:#F6F6F6;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.home-cause-animal-img {
+    background-position: left center;
+    background-size: cover;
+    background-image: url('images/home/Jaipur_cows_eating_trash.JPG');
+    background-repeat: no-repeat;
+    margin-top: 90px;
+    margin-left: 56%;
+    min-height: 440px;
+    width: 40%;
+    position: absolute;
+    border-radius: 90%;
+}
+
+.home-cause-animal-text
+{
+    color:#4C4C4C;
+    margin-left:50px;
+    font-weight: lighter;
+    text-align: left;
+    float:left;
+    padding-top:0px;
+    letter-spacing:-1px;
+    font: 400 17px/1.667 "Open Sans",sans-serif;
+    padding-top:40px;
+    width:680px;
+}
+
+/* ********************************** Environment Area ************************************************** */
+
+.home-cause-env-section {
+    height: 600px;
+    padding: 0;
+}
+
+.home-cause-env-text
+{
+    color:#4C4C4C;
+    position:relative;
+    padding-left: 48%;
+    font-weight: lighter;
+    float:left;
+    text-align: left;
+    padding-top:0px;
+    letter-spacing:-1px;
+    font: 400 17px/1.667 "Open Sans",sans-serif;
+}
+
+.home-cause-env-img {
+    background-position: left center;
+    background-size: cover;
+    background-image:url(images\\home\\Environ3.jpg);
+    background-repeat: no-repeat;
+    left: 0;
+    margin-top: 90px;
+    margin-left: 50px;
+    min-height: 440px;
+    width: 40%;
+    position: absolute;
+    border-radius: 90%;
+}
+
+/* ********************************** Footer Area ************************************************** */
+.home-footer-pre-background{
+    z-index:1019;
+    height: 148px;
+    width: 100%;
+    float: left;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(to bottom, #fff 50%, #e1e1e1 50%);
+}
+
+.home-footer {
+    height: 175px;
+    width: 100%;
+    background-color: #e1e1e1;
+    float: left;
+    position: relative;
+}
+
+.footer-menu-a {
+    text-decoration:none;
+    color: #4c4c4c;
+    content: "\2022";
+    font-family: "arial";
+    margin-right: 10px;
+    display: inline;
+    vertical-align: middle;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.home-footer-heading{
+    color: #4c4c4c;
+    content: "\2022";
+    font-family: "arial";
+    margin-right: 10px;
+    display: inline;
+    vertical-align: middle;
+    font-size: 16px;
+    font-weight: bold;
+    text-align:center;
+}
+
+.home-footer-link-table{
+    width:20%; 
+    align-items:center;
+    margin-left:50px;
+    float:left;
+}
+
+.home-footer-social-icons{
+    float:left;
+}
